@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#particles-js {
+  height: 130px;
+  width: 100%;
+  background-size: 100%;
+}
+
+#typewriter {
+  position: absolute;
+  font-size: 30px;
+  font-family: 'B612', sans-serif;
+  font-weight: 700;
+  width: 800px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #typewriter {
+    font-size: 20px;;
+  }
+
+  #particles-js {
+    height: 90px;
+  }
+}
