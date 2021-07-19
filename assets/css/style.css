@@ -38,7 +38,8 @@ img {
 
 @media (max-width: 600px) {
   #typewriter {
-    font-size: 20px;;
+    font-size: 20px;
+    width: 290px;
   }
 
   #particles-js {
